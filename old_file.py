@@ -17,6 +17,9 @@ def main():
   old_domain, new_domain = 'abc.edu', 'xyz.edu'
   csv_file_location = '<csv_file_location>'
   report_file = '<path_to_home_directory>' + '/updated_user_emails.csv' #path report file location
+
+  #creat list to save
+  main_domain_user = []
   user_email_list = []
   old_domain_email_list = []
   new_domain_email_list = []
@@ -40,3 +43,4 @@ def main():
     writer.writerows(user_data_list)
     output_file.close()
 main()
+# end code 
