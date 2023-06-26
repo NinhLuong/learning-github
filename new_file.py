@@ -52,6 +52,5 @@ def main():
     writer = csv.writer(output_file)
     writer.writerows(user_data_list)
     output_file.close()
-# add comment to test merge
+
 main()
-# end code 
