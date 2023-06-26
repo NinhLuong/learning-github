@@ -40,7 +40,3 @@ def main():
     writer.writerows(user_data_list)
     output_file.close()
 main()
-<<<<<<< HEAD
-# end code 
-=======
->>>>>>> origin/main
